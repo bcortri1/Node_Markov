@@ -31,11 +31,6 @@ describe("Markov Machine Tests", function(){
         mm3 = new MarkovMachine(text3)
     })
 
-    beforeEach(function(){
-
-    })
-
-
     test("Markov Machine Initialization",function(){
         expect(mm1).toBe(mm1)
         expect(mm1["words"] != null).toBeTruthy()
